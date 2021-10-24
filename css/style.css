@@ -76,3 +76,49 @@ body {
   padding: 5px;
   border-radius: 50%;
 }
+.slide {
+  border-radius: 20px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+.slide-text-light {
+  background-color: grey;
+  color: white;
+}
+.slide-content {
+  max-width: 400px;
+}
+.slide-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 51px;
+}
+.slide-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+.button-primary {
+  background: #f47322;
+  color: white;
+}
+.button {
+  border-radius: 25px;
+  padding: 12px 50px;
+  text-decoration: none;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+}
+.slide-summer {
+  background-image: url("../img/summer.png");
+  background: no-repeat;
+  background-size: cover;
+}
